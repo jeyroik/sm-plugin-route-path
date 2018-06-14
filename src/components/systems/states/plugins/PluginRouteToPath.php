@@ -29,7 +29,7 @@ class PluginRouteToPath extends Plugin implements IPluginRouteTo
             $routeContent[static::ROUTE__PATH] = [];
         }
 
-        $routeContent[] = [$route->getCurrentFrom() => $toStateId];
+        $routeContent[static::ROUTE__PATH][] = [$route->getCurrentFrom() => $toStateId];
 
         $route->setRoute($routeContent);
 
