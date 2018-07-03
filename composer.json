@@ -1,6 +1,9 @@
 {
   "name": "jeyroik/sm-plugin-route-path",
   "description": "Plugin for jeyroik StateMachine. Add route representing as [from => to] series.",
+  "require": {
+    "jeyroik/sm-plugin-states-route": "*"
+  },
   "autoload": {
     "psr-4": {
       "jeyroik\\extas\\": "src/"

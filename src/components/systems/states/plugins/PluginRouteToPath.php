@@ -2,7 +2,7 @@
 namespace jeyroik\extas\components\systems\states\plugins;
 
 use jeyroik\extas\components\systems\Plugin;
-use jeyroik\extas\interfaces\systems\states\IStatesRoute;
+use jeyroik\extas\interfaces\systems\states\extensions\IStatesRoute;
 use jeyroik\extas\interfaces\systems\states\plugins\IPluginRouteTo;
 
 /**
@@ -14,6 +14,8 @@ use jeyroik\extas\interfaces\systems\states\plugins\IPluginRouteTo;
 class PluginRouteToPath extends Plugin implements IPluginRouteTo
 {
     const ROUTE__PATH = '@directive.stateRoute().__path()';
+
+    public $preDefinedStage = IStatesRoute::STAGE__TO;
 
     /**
      * @param IStatesRoute $route
