@@ -1,5 +1,6 @@
 {
-  "title": "Route from start",
+  "title": "Route Path",
+  "description": "Add one more states route view as from => to",
   "schema": "1.0",
   "plugins": [
     {
