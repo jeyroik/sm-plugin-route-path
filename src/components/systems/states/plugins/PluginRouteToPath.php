@@ -2,7 +2,7 @@
 namespace jeyroik\extas\components\systems\states\plugins;
 
 use jeyroik\extas\components\systems\Plugin;
-use jeyroik\extas\interfaces\systems\states\extensions\IStatesRoute;
+use jeyroik\extas\interfaces\systems\states\machines\extensions\IStatesRoute;
 use jeyroik\extas\interfaces\systems\states\plugins\IPluginRouteTo;
 
 /**
